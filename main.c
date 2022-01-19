@@ -17,12 +17,13 @@
 
 
 int main(void)
-{     
-	char printbuff[10];
+{        
+	char printbuff[10];       //Se crean una lista de caracteres que almacenara los bits de de temperatura y humedad captados por el sensor
         char printbuff_2[10];
-	float temperatura;
+	float temperatura;    //creacion de vairabels flotantes que nos permitira visualizar la informacion de forma numerica
 	float humedad;
 	DDRB |= (1<<3);	//Pin como salida
+        DDRB |= (1<<4);	//Pin como salida
 	                          
 	uint8_t contador=200;
 	serial_begin();
@@ -41,7 +42,8 @@ int main(void)
 			{
 			    if (    ( (37.5<temperatura) && (temperatura<38.5)) && ( (58<humedad) && (humedad<60))   ){	
 				  
-	                           PORTB &= ~ (1<<3);	//Nivel alto
+	                           PORTB &= ~ (1<<3);	//NiveL BAJO
+			           PORTB &= ~ (1<<4);	//NiveL BAJO
 				   LCD_clear();
 				   LCD_printf(" Temp. ");
 				   dtostrf(temperatura, 2, 2, printbuff);
@@ -71,6 +73,7 @@ int main(void)
 			} else{  
 			       
 	                           PORTB |= (1<<3);	//Nivel alto
+			           PORTB |= (1<<4);	//Nivel alto
 			           
 			           LCD_clear();
 				   LCD_printf(" PELIGRO!!! ");
@@ -109,3 +112,4 @@ int main(void)
 		}		
     }
 }
+
