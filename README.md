@@ -3,20 +3,20 @@
 El proyecto consiste en realizar un sistema de control capaz de detectar el grado de temperatura y porcentaje de humedad que afectan a los huevos para la emisión de alertas, elevando dicha información hacia una plataforma IoT Ubidots
 
 ## Contenido
-- Diagramas esquematicos(.pdsprj)
-- Codigos de funcionamiento (.c/.h/.py)
-- Capturas de simulacion
+- Diagramas esquemáticos(.pdsprj)
+- Códigos de funcionamiento (.c/.h/.py)
+- Capturas de simulación
 - Diagrama PCB
 - Modelo 3D
 
-### Diagramas esquematicos
+### Diagramas esquemáticos
 - Atmega328P
 # ![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/Esquemas/esquema1.jpg)
 
 - Raspberry Pi
 # ![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/Esquemas/esquema2.png)
 
-### Capturas de simulacion
+### Capturas de simulación
 ![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/Capturas%20de%20simulacion/prueba.png)
 
 ![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/Capturas%20de%20simulacion/ubidots1.png)
