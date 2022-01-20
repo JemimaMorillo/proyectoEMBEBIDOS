@@ -6,8 +6,8 @@ El proyecto consiste en realizar un sistema de control capaz de detectar el grad
 - Diagramas esquemáticos(.pdsprj)
 - Códigos de funcionamiento (.c/.h/.py)
 - Capturas de simulación
-- Diagrama PCB (imagen placaPCB.png)
-- Modelo 3D (imagen vista3D.png)
+- Modelo 3D
+- Diagrama PCB
 #
 ### Diagramas esquemáticos
 - Atmega328P
@@ -29,13 +29,17 @@ Alarma desactivada en Ubidots
  Alarma activada en Ubidots
 # ![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/Capturas%20de%20simulacion/ubidots2.png)
 
-
-### Diagrama PCB
-
-![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/placaPCB.png)
 #
 ### Modelo 3D
-![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/vista3D.png)
+Vista Frontal
+![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/CAPTURAS_DE_MODELO/3D/MODELO3D_FRONTAL.JPG)
+
+Vista Lateral
+![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/CAPTURAS_DE_MODELO/3D/MODELO3D_LATERAL.JPG)
+
+### Diagrama PCB
+![Image text](https://github.com/JemimaMorillo/proyectoEMBEBIDOS/blob/main/CAPTURAS_DE_MODELO/PCB/CapturaPCB.JPG)
+
 
 ## NOTA: 
 Verificar que los puertos seriales de los COMPIM de ambos proyectos coincidan con el par de puertos creados en el Configure Virtual Serial Port Driver
