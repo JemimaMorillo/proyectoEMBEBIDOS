@@ -1,6 +1,6 @@
 # Proyecto SISTEMAS EMBEBIDOS: Sistema automatizado de control para la incubación de huevos fértiles
 
-El proyecto consiste en realizar un sistema de control capaz de detectar el grado de temperatura y porcentaje de humedad que afectan a los huevos para la emisión de alertas, elevando dicha información hacia una plataforma IoT Ubidots
+El proyecto consiste en realizar un sistema de control capaz de detectar el grado de temperatura y porcentaje de humedad que afectan a los huevos para la emisión de alertas, elevando dicha información hacia una plataforma IoT Ubidots para un monitoreo continuo
 
 ## Contenido
 - Diagramas esquemáticos(.pdsprj)
