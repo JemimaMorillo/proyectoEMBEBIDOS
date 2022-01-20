@@ -6,8 +6,8 @@ El proyecto consiste en realizar un sistema de control capaz de detectar el grad
 - Diagramas esquemáticos(.pdsprj)
 - Códigos de funcionamiento (.c/.h/.py)
 - Capturas de simulación
-- Diagrama PCB
-- Modelo 3D
+- Diagrama PCB (imagen placaPCB.png)
+- Modelo 3D (imagen vista3D.png)
 
 ### Diagramas esquemáticos
 - Atmega328P
